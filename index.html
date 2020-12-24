@@ -2,33 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>It's me - Yourun!</title>
+    <title>Web dev skills</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body style="display: flex; justify-content: space-evenly;">
-<div style="margin: left;">
-    <br>
-    <div style="border: 7px solid black; padding: 30px; width: 300px;">
-	<h2>My skills</h2>
-        HTML <br>
-        CSS <br>
-        JavaScript <br>
-        Python <br>
-        Flask <br>
-        Vue.js <br>
-        Bootstrap <br>
-        FlexBox <br>
+<body>
+<h2>My skills</h2>
+<div class="center">
+    <div class="skills">
+        <h1>Front-end</h1>
+        <ul>
+            <li><b>HTML</b></li>
+                <ul type="square">
+                    <li><i>Basics: links, tables, div e.t.c.</i></li>
+                    <li><i>Adding styles and scripts</i></li>
+                </ul>
+            <li><b>CSS</b></li>
+                <ul type="square">
+			        <li><i>Styles</i></li>
+                    <li><i>Animations</i></li>
+        		</ul>
+            <li><b>FlexBox</b></li>
+            <li><b>BootsTrap</b></li>
+		        <ul type="square">
+            		<li><i>Basic сomponents</i></li>
+			        <li><i>Grid</i></li>
+			        <li><i>Indentation</i></li>
+		        </ul>
+            <li><b>Vue.js</b></li>
+            <ul type="square">
+                <li><i>Templates and .vue files</i></li>
+                <li><i>Components</i></li>
+                <li><i>Routes</i></li>
+            </ul>
+        </ul>
     </div>
-</div>
-<div style="align-items: center; border: 7px solid black; padding: 30px;">
-    <h1>Hello, World!</h1>
-    <h2>I'm Yourun!</h2>
-</div>
-<div style="align-items: center; border: 7px solid black; padding: 30px;">
-    <br>
-    <h2>My projects</h2>
-    <a href="https://calculatorbyyourun.netlify.app">Calculator</a>
-    <br>
-    <a href="https://github.com/Yourun-proger/ToDoList">To Do List</a>
+    <div class="skills">
+        <h1>Back-end</h1>
+        <ul>
+            <li><b>Flask</b></li>
+            <ul type="square">
+                <li><i>Jinja: templates, conditions, cycles, filters</i></li>
+                <li><i>REST API: methods, forms, requests</i></li>
+                <li><i>gunicorn: production server</i></li>
+                <li><i>SQLAlchemy: data base</i></li>
+                <li><i>Heroku: deploy</i></li>
+            </ul>
+            <li><b>JavaScript</b></li>
+            <ul type="square">
+                <li><i>localStorage</i></li>
+                <li><i>Functions</i></li>
+            </ul>
+        </ul>
+    </div>
 </div>
 </body>
 </html>
+
